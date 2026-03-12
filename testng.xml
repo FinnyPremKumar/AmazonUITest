@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="setup">
+		  <classes>
+		  	<class name="setup.TestSetup"/>
+		  </classes>
+	  </test> 
+  <test thread-count="5" name="verify_search_product_addtocart">
+	  <classes>
+	  	<class name="Tests.searchProductFunctionality"/>
+	  </classes>
+  </test> 
+</suite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T03:57:31 IST" name="Suite" finished-at="2026-03-13T03:59:41 IST" duration-ms="130226">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T03:57:31 IST" name="setup" finished-at="2026-03-13T03:57:31 IST" duration-ms="5">
+    </test> <!-- setup -->
+    <test started-at="2026-03-13T03:57:31 IST" name="verify_search_product_addtocart" finished-at="2026-03-13T03:59:41 IST" duration-ms="130201">
+      <class name="Tests.searchProductFunctionality">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:57:22 IST" name="beforeSuit" finished-at="2026-03-13T03:57:31 IST" duration-ms="8309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="pageObj()[pri:0, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:57:31 IST" name="pageObj" finished-at="2026-03-13T03:57:31 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObj -->
+        <test-method signature="TC01_verify_search_validProductKeyword(java.util.Map)[pri:0, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:57:31 IST" name="TC01_verify_search_validProductKeyword" data-provider="AmazonTestDataXLSX" finished-at="2026-03-13T03:58:44 IST" duration-ms="73290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Scenario Name=TC01_verify_search_validProductKeyword, S. No=1, searchProduct=Iphone 17 pro Max}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verify_search_validProductKeyword -->
+        <test-method signature="TC02_verify_searchresults_display_relevantProducts_matchingKeyword(java.util.Map)[pri:1, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:58:44 IST" name="TC02_verify_searchresults_display_relevantProducts_matchingKeyword" data-provider="AmazonTestDataXLSX" finished-at="2026-03-13T03:59:26 IST" duration-ms="41646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Scenario Name=TC02_verify_searchresults_display_relevantProducts_matchingKeyword, S. No=2, searchProduct=Trimmer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verify_searchresults_display_relevantProducts_matchingKeyword -->
+        <test-method signature="TC03_verify_search_Pressing_EnterKey(java.util.Map)[pri:2, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:59:26 IST" name="TC03_verify_search_Pressing_EnterKey" data-provider="AmazonTestDataXLSX" finished-at="2026-03-13T03:59:41 IST" duration-ms="14946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Scenario Name=TC03_verify_search_Pressing_EnterKey, S. No=3, searchProduct=Xbox Sereis S}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verify_search_Pressing_EnterKey -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Tests.searchProductFunctionality@411f53a0]" started-at="2026-03-13T03:59:41 IST" name="afterTest" finished-at="2026-03-13T03:59:41 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.searchProductFunctionality -->
+    </test> <!-- verify_search_product_addtocart -->
+  </suite> <!-- Suite -->
+</testng-results>
