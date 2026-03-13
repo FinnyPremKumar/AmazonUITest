@@ -1,16 +1,10 @@
 package Tests;
 
 import java.io.IOException;
-import java.time.Duration;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
 import Utils.common;
 import pages.loginPage;
-import setup.TestSetup;
 
 public class loginTest extends common {
 	@Test
@@ -23,6 +17,4 @@ public class loginTest extends common {
 		waitForElement(lp.signInSubmit()).click();
 		Thread.sleep(10000);
 	}
-	
-
 }

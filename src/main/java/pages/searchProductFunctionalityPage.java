@@ -14,6 +14,10 @@ public class searchProductFunctionalityPage {
 	WebElement searchButton;
 	@FindBy(xpath = "(//div[@data-cy=\"title-recipe\"]//h2//span)[1]")
 	WebElement	firstProductName;
+	@FindBy(id="nav-logo-sprites")
+	WebElement amazonLogo;
+	@FindBy(xpath = "//*[@id=\"search\"]/span/div/h1/div/div[1]/div/div/div[2]/h2/span[1]")
+	WebElement	searchResultsCount;
 	
 	//|---------------------------Methods---------------------------------------|
 	public WebElement searchProduct() {
@@ -24,6 +28,12 @@ public class searchProductFunctionalityPage {
 	}
 	public WebElement firstProductName() {
 		return firstProductName;
+	}
+	public WebElement amazonLogo() {
+		return amazonLogo;
+	}
+	public WebElement searchResultsCount() {
+		return searchResultsCount;
 	}
 	public searchProductFunctionalityPage(WebDriver driver) {
 		this.driver = driver;
